@@ -12,11 +12,15 @@ struct CalcButton: View {
     let calcType: CalcType
     let backgroundColor: String
     
+    @Binding var currentInput: CalcType
+    @Binding var resultValue: Double
+    
     var body: some View {
         Button {
-            print(calcType.calcIdentifier)
+            
         } label: {
             Text(calcType.calcIdentifier)
+                .font(.system(size: 25, weight: .bold))
                 .frame(
                     width: calcType == .Number(number: 0) ? proxy.size.width / 2 : proxy.size.width / 4,
                     height: proxy.size.width / 4
@@ -31,4 +35,3 @@ struct CalcButton: View {
         }
     }
 }
-//CalcButton(proxy: proxy, calcType: .Number(number: 4))

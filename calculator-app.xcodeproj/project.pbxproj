@@ -68,7 +68,7 @@
 				B475C64B2719BF79005E0E44 /* Preview Content */,
 				B475C6492719BF79005E0E44 /* Assets.xcassets */,
 				B4219C6E2719E0AF0003BD47 /* extensions */,
-				B4E08130271B1EDA00CFF9B4 /* Entities */,
+				B4E08130271B1EDA00CFF9B4 /* Model */,
 				B475C6452719BF78005E0E44 /* calculator_appApp.swift */,
 				B475C6472719BF78005E0E44 /* ContentView.swift */,
 				B42F4BC4271B144B00CA38AB /* CalcButton.swift */,
@@ -84,12 +84,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B4E08130271B1EDA00CFF9B4 /* Entities */ = {
+		B4E08130271B1EDA00CFF9B4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				B4E0812E271B1ECF00CFF9B4 /* CalcType.swift */,
 			);
-			path = Entities;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
